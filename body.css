@@ -1,0 +1,368 @@
+body {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+h1,h2{
+    font-size: 2rem;
+    padding: 30px;
+    text-align: center;
+    padding: 2px;
+}
+
+
+
+.border {
+    border: 1px solid #313131;
+}
+
+.layout>div {
+
+    width: 80%;
+    background-color: #ffffff;
+    height: 97vh;
+
+}
+
+.layout {
+    display: flex;
+
+}
+
+.menu {
+    flex-shrink: 25;
+}
+
+
+
+
+form {
+    padding: 10px 15px;
+    width: 99%;
+    margin: 0 auto;
+
+}
+
+
+
+.box>div {
+    height: 300px;
+    width: 48%;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+ 
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.last-box {
+
+    height: 350px;
+    width: 50%;
+
+}
+
+
+
+
+span {
+    text-align: center;
+    width: 100%;
+    display: block;
+
+}
+
+
+.content {
+    overflow-y: scroll;
+}
+
+
+
+.header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+/*button*/
+
+.nav-tabs button li {
+    display: inline-block;
+    position: relative;
+    left: 28px;
+
+}
+
+.nav-tabs button li:hover {
+    color: red;
+}
+
+.nav-tabs button {
+
+    padding: 6px 35px;
+}
+
+.bi {
+
+    display: inline-block;
+    width: 20%;
+}
+
+
+svg:hover {
+    color: #809FA1;
+    cursor: pointer;
+}
+
+canvas {
+
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    left: 0;
+
+
+}
+
+
+video {
+    width: 100%;
+}
+
+.nav-tabs {
+    position: sticky;
+    top: 0;
+}
+
+#camara>div svg {
+    position: absolute;
+    color: #5CB5B9;
+    z-index: 2;
+
+
+}
+
+
+
+#camara>div {
+    position: relative;
+}
+
+
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 680px;
+
+}
+
+.sub button {
+
+    width: 60%;
+    align-self: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#camara img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+
+.noshow {
+    display: none;
+}
+
+.show {
+    display: inline-block;
+}
+
+.numberoAcero span {
+    display: inline-block;
+    margin-top: 12px;
+  
+}
+
+#separate .form-group {
+
+    margin: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+
+
+    .box>div {
+        height: 300px;
+         width: 30%;
+         margin: 5px 2px;
+
+    }
+
+    .secondpage>div{
+        width: 45%;
+        margin: 20px;
+    }
+
+    canvas {
+
+
+        height: 300px;
+
+
+
+    }
+
+    #camara img {
+
+        width: 100%;
+        height: 300px;
+
+    }
+
+   div  #camara .biggerBox{
+
+       width: 80%;
+       
+    }
+
+ 
+
+
+}
+
+
+
+
+
+.section1 {
+    width: 100%;
+}
+
+
+.row img {
+   
+    width: 120px;
+    display: inline-block;
+
+}
+
+.image img{
+    width: 120px;
+    display: inline-block;
+}
+
+
+
+.nav-link {
+    color: white;
+
+}
+
+
+
+.nav-link:hover {
+    color: rgb(103, 139, 218);
+
+}
+
+#Printer {
+
+    margin-top: 350px;
+}
+
+
+.header {
+
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+button {
+
+    color: white;
+}
+
+
+nav,
+.offcanvas {
+    background-color: #1d2022;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.section-print{
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.form-select{
+    margin-right: 5px;
+    width: 30%;
+}
+
+.secondpage>div{
+    height: 430px;
+}
+
+
+#secondpage #camara img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 430px;
+    background-size: cover;
+}
+
+#camara .biggerBox{
+
+    width: 95%;
+   
+}
+
+#secondpage #camara  canvas{
+
+    height: 430px;
+}
+
+.secondpage input{
+    width: 30%;
+    
+}
